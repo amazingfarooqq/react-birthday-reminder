@@ -38,6 +38,12 @@ main {
     box-shadow:  0 5px 15px rgba(0, 0, 0, 0.4);
   }
 
+@media screen and (min-width: 992px) {
+  .container {
+     width: 90vw;
+  }
+}
+
   .container h3 {
     font-weight: normal;
     text-transform: none;
